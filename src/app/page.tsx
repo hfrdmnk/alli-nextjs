@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import logo from '~/img/alli.png';
 
-export default function Home() {
+export default function Page() {
 	return (
 		<>
 			<nav className="mb-6">
@@ -14,7 +14,7 @@ export default function Home() {
 					</h1>
 				</div>
 			</nav>
-			<main className="container max-w-3xl px-4 py-6 mx-auto">
+			<main className="container max-w-4xl px-4 py-6 mx-auto">
 				<div className="mb-12">
 					<h2 className="mb-4 text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl">
 						Easily create flashcards
