@@ -1,7 +1,7 @@
+import FlashcardArea from '@/components/flashcardArea';
 import Image from 'next/image';
 
 import logo from '~/img/alli.png';
-import ContextInput from '@/components/contextInput';
 
 export default function Home() {
 	return (
@@ -24,7 +24,7 @@ export default function Home() {
 						magic 🪄
 					</p>
 				</div>
-				<ContextInput />
+				<FlashcardArea />
 			</main>
 		</>
 	);
